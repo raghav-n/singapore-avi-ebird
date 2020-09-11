@@ -1,8 +1,8 @@
 # singapore-avi-ebird
 
-The sole file here, scraper.ipynb, is used to convert pdf files such as [this one](https://nss.org.sg/report/1eebac90-8Avi_2005_19_2.pdf) into .csv files that can be uploaded to eBird, contributing to the body of information already available there. For older, scanned reports, OCR (Optical Character Recognition) with preprocessing is used to convert them into text, which is then parsed to produce a spreadsheet file. For newer reports, which are already in text format, the OCR step is not required.
+The program scraper.ipynb is used to convert .pdf files such as [this one](https://nss.org.sg/report/1eebac90-8Avi_2005_19_2.pdf) into .csv files that can be uploaded to eBird, contributing to the body of information already available there. For older, scanned reports, OCR (Optical Character Recognition) with preprocessing is used to convert them into text, which is then parsed to produce a spreadsheet file. For newer reports, which are already in text format, the OCR step is not required.
 
-Some manual input is required; for example, when the program is confused by multiple numbers (ie. "2 seen on Track 4") or multiple locations. This occurs only rarely, and is programmed to take as little time as possible. Similarly, with outdated English or scientific names, the program requires human input (and occasionally makes mistakes, like with taxonomic changes). These have to be fixed manually after the csv output is produced.
+Some manual input is required; for example, when the program is confused by multiple numbers (ie. "2 seen on Track 4") or multiple locations. This occurs only rarely, and is programmed to take as little time as possible. Similarly, with outdated English or scientific names, the program requires human input (and occasionally makes mistakes, like with taxonomic changes). These have to be fixed manually after the .csv output is produced.
 
 With modifications, the program can be used with reports written differently (with a different structure or format).
 
